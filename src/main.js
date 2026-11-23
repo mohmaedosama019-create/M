@@ -2,7 +2,7 @@ import { supabase } from './supabase.js'
 import './style.css'
 
 const $ = (id) => document.getElementById(id)
-
+alert('M بدأ التشغيل')
 const savedChats = localStorage.getItem('m_chats')
 const chats = savedChats ? JSON.parse(savedChats) : {
   'أحمد': ['أهلاً بيك في M 👋'],
